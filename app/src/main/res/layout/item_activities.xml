@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="12.5dp"
+            android:layout_height="12.5dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.3dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <id.boxee.pay.customfonts.MyTextView_PTSans_Bold
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="BlockPay Transfer"
+                android:textColor="#4f4f4f"
+                android:textSize="13.3sp" />
+
+            <id.boxee.pay.customfonts.MyTextView_PTSans_Regular
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center_horizontal"
+                android:text="Oct 01, 2019"
+                android:textColor="#8b8b8b"
+                android:textSize="11.7sp" />
+
+
+        </LinearLayout>
+
+        <id.boxee.pay.customfonts.MyTextView_Opensans_SemiBold
+            android:id="@+id/symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="13.3sp"
+            android:layout_marginRight="2dp"
+            android:text="+"/>
+
+        <id.boxee.pay.customfonts.MyTextView_Opensans_SemiBold
+            android:id="@+id/price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal"
+            android:text="Rp 20.000.000"
+            android:textColor="#4f4f4f"
+            android:textSize="13.3sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#f1f1f1" />
+</LinearLayout>

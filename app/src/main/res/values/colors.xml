@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="slide_1_active_color">#17ead9</color>
+    <color name="slide_2_active_color">#17ead9</color>
+    <color name="slide_3_active_color">#17ead9</color>
+    <color name="slide_4_active_color">#17ead9</color>
+    <color name="slide_5_active_color">#17ead9</color>
+
+
+    <color name="slide_1_inactive_color">#cecece</color>
+    <color name="slide_2_inactive_color">#cecece</color>
+    <color name="slide_3_inactive_color">#cecece</color>
+    <color name="slide_4_inactive_color">#cecece</color>
+    <color name="slide_5_inactive_color">#cecece</color>
+    <color name="black">#505050</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/slide_1_active_color</item>
+        <item>@color/slide_2_active_color</item>
+        <item>@color/slide_3_active_color</item>
+        <item>@color/slide_4_active_color</item>
+        <item>@color/slide_5_active_color</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/slide_1_inactive_color</item>
+        <item>@color/slide_2_inactive_color</item>
+        <item>@color/slide_3_inactive_color</item>
+        <item>@color/slide_4_inactive_color</item>
+        <item>@color/slide_5_inactive_color</item>
+    </array>
+
+
+
+    <color name="active_color1">#fab999</color>
+    <color name="active_color2">#fab999</color>
+    <color name="active_color3">#fab999</color>
+    <color name="active_color4">#fab999</color>
+    <color name="active_color5">#fab999</color>
+
+
+    <color name="inactive_color1">#cecece</color>
+    <color name="inactive_color2">#cecece</color>
+    <color name="inactive_color3">#cecece</color>
+    <color name="inactive_color4">#cecece</color>
+    <color name="inactive_color5">#cecece</color>
+    <color name="tabs_default_color">#4f4f4f</color>
+
+
+    <array name="array_dot_active1">
+        <item>@color/active_color1</item>
+        <item>@color/active_color2</item>
+        <item>@color/active_color3</item>
+        <item>@color/active_color4</item>
+        <item>@color/active_color5</item>
+    </array>
+
+    <array name="array_dot_inactive1">
+        <item>@color/inactive_color1</item>
+        <item>@color/inactive_color2</item>
+        <item>@color/inactive_color3</item>
+        <item>@color/inactive_color4</item>
+        <item>@color/inactive_color5</item>
+    </array>
+</resources>

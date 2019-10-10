@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/green_gradient"/>
+
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="0dp">
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:elevation="5dp">
+
+                <com.dd.ShadowLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    shadow:sl_cornerRadius="10dp"
+                    shadow:sl_dx="2dp"
+                    shadow:sl_dy="2dp"
+                    android:background="@color/white"
+                    shadow:sl_shadowColor="#11e1e2e4">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rounded_corner_5dp"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="48dp"
+                            android:orientation="vertical">
+
+                            <id.boxee.pay.customfonts.MyTextView_PTSans_Bold
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="21.7sp"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="#4f4f4f"
+                                android:text="Rp 250.000.000"
+                                />
+
+                            <id.boxee.pay.customfonts.MyTextView_PTSans_Regular
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="11.7sp"
+                                android:textColor="#b9b6b6"
+                                android:layout_marginTop="0dp"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Tap to add money to wallet"
+                                />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <id.boxee.pay.customfonts.MyTextView_PTSans_Bold
+                                android:layout_width="110dp"
+                                android:layout_height="30dp"
+                                android:textSize="12.7sp"
+                                android:gravity="center"
+                                android:background="@drawable/gradient2"
+                                android:textColor="#ffffff"
+                                android:text="Button"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <id.boxee.pay.customfonts.MyTextView_PTSans_Bold
+                                android:layout_width="110dp"
+                                android:layout_height="30dp"
+                                android:textSize="12.7sp"
+                                android:gravity="center"
+                                android:background="@drawable/gradient2"
+                                android:textColor="#ffffff"
+                                android:text="Button"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.dd.ShadowLayout>
+
+            </FrameLayout>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/remmss"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="6dp" />
+
+        </FrameLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="16.7dp"
+                android:src="@drawable/menu1" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="20.3dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/notifi" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <id.boxee.pay.CustomTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        style="@style/MyCustomTabLayout"
+        app:tabTextColor="#d7d7d7"
+        app:tabIndicatorColor="#41de9a"
+        app:tabSelectedTextColor="#4f4f4f"
+        app:tabMode="fixed" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
