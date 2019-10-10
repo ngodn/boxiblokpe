@@ -56,11 +56,11 @@ public void onBindViewHolder(final MyViewHolder holder, final int position){
 
     if (position % 2 == 0){
 
-        holder.symbol.setTextColor(Color.parseColor("#43a047"));
+        holder.symbol.setTextColor(Color.parseColor("#cd2f04"));
 
     }else {
 
-        holder.symbol.setTextColor(Color.parseColor("#cd2f04"));
+        holder.symbol.setTextColor(Color.parseColor("#43a047"));
 
     }
 
